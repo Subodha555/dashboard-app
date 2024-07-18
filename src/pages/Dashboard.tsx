@@ -98,7 +98,7 @@ const Dashboard = () => {
       setFilteredProducts(filteredProductRef.current);
       setCategory(categoryRef.current || "");
       setIsLoading(false);
-    }, 3000); // To show spinner for 3s
+    }, 0); // To show spinner for 3s
   }, []);
 
   return (
